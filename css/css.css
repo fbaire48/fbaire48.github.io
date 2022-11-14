@@ -1,0 +1,169 @@
+/* Inicio: Barra de navegacao */
+.nav-bar
+{
+	background-color:grey;
+	display:flex;
+	width:100%;
+	height:50px;
+	justify-content:center;
+	align-items:center;
+	top:0;
+	position:fixed;
+	z-index:100;
+}
+.espacamento-das-palavras-e-caracteristicas-das-letras-da-nav-bar
+{
+	/* Inicio: Espacamento*/
+	padding:10px;
+	/* Fim: Espacamento*/
+	/* Inicio: Caracteristicas das letras */
+	font:oblique normal 300 20px times-new-roman;
+	color:white;
+	text-decoration:none;
+	/* Fim: Caracteristicas das letras */
+}
+/* Fim: Barra de navegacao */
+/* Inicio: tipos de espacamento */
+.espacamento-nivel-1
+{
+	background-color:black;
+	display:flex;
+	height:50px;
+}
+.espacamento-nivel-1-branco
+{
+	background-color:white;
+	display:flex;
+	height:50px;
+}
+.espacamento-nivel-2
+{
+	background-color:black;
+	display:flex;
+	height:100px;
+}
+/* Fim: tipos de espacamento */
+/* Inicio: meu brand */
+.meu-brand
+{
+	background-color:black;
+	display:flex;
+	height:100px;
+	justify-content:center;
+	align-items:center;
+}
+.caracteristicas-das-letras-do-meu-brand
+{
+	font:normal small-caps 400 50px times-new-roman;
+	color:white;
+}
+/* Fim: meu brand */
+/* Inicio: Carrousel de imagens */
+.carrousel-de-imagens
+{
+	background-color:black;
+	display:flex;
+	height:400px;
+	justify-content:center;
+	align-items:center;
+}
+.limitacao-do-tamanho-do-carrousel-de-imagens
+{
+	border:3px solid black;
+	width:500px;
+	height:400px;
+	display:flex;
+	align-items:center;
+}
+/* Fim: Carrousel de imagens */
+/* Inicio: Corpo */
+.negocio-de-barbeiro
+{
+	border-radius:5px;
+	background-image:linear-gradient(red,blue);
+	display:inline-block;
+	width:5px;
+	height:25px;
+}
+.posicionamento-para-titulo-e-texto
+{
+	background-color:black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.caracteristicas-das-letras-do-titulo
+{
+	font:italic normal 800 50px times-new-roman;
+	color:white;
+}
+.caracteristicas-das-letras-do-texto
+{
+	font:normal normal 300 20px times-new-roman;
+	color:white;
+	text-align:justify;
+	/* Inicio: Margem para o mobile */
+	margin:25px;
+	/* Fim: Margem para o mobile */
+}
+.caracteristicas-das-letras-do-footer
+{
+	font:normal small-caps 300 15px times-new-roman;
+	color:white;
+	text-align:justify;
+	/* Inicio: Margem para o mobile */
+	margin:25px;
+	/* Fim: Margem para o mobile */
+}
+/* Fim: Corpo */
+/* Inicio: Corpo branco */
+.posicionamento-para-titulo-e-texto-no-branco
+{
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.caracteristicas-das-letras-do-titulo-no-branco
+{
+	font:italic normal 800 50px times-new-roman;
+	color:black;
+}
+.caracteristicas-das-letras-do-texto-no-branco
+{
+	font:normal normal 300 20px times-new-roman;
+	color:black;
+	text-align:justify;
+	/* Inicio: Margem para o mobile */
+	margin:25px;
+	/* Fim: Margem para o mobile */
+}
+/* Fim: Corpo branco */
+/* Inicio: Formulario */
+.formulario
+{
+	border:3px solid white;
+	background-color:white;
+	display:flex;
+	height:80px;
+	justify-content:center;
+	align-items:center;
+}
+.limitacao-do-tamanho-horizontal-do-formulario
+{
+	width:50%;
+}
+.formulario-do-text-area
+{
+	background-color:white;
+	display:flex;
+	height:150px;
+	justify-content:center;
+	align-items:center;
+}
+.correcao-de-posicionamento-do-text-area-e-botoes-de-enviar-e-apagar-tudo
+{
+	display:flex;
+	align-items:center;
+}
+/* Fim: Formulario */
